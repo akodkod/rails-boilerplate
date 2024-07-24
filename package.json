@@ -1,8 +1,9 @@
 {
   "name": "app",
+  "type": "module",
   "private": true,
   "scripts": {
-    "build": "bun bun.config.js",
+    "build": "bun bun.config.ts",
     "build:css": "tailwindcss -i ./app/assets/stylesheets/application.tailwind.css -o ./app/assets/builds/application.css --minify"
   },
   "dependencies": {
@@ -11,5 +12,10 @@
     "autoprefixer": "^10.4.19",
     "postcss": "^8.4.39",
     "tailwindcss": "^3.4.6"
+  },
+  "devDependencies": {
+    "@total-typescript/ts-reset": "^0.5.1",
+    "@types/bun": "latest",
+    "typescript": "^5.5.4"
   }
 }
