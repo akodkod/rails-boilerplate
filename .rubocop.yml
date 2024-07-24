@@ -2,6 +2,10 @@ require:
   - rubocop-rake
   - rubocop-rails
   - rubocop-performance
+  - rubocop-rspec
+  - rubocop-rspec_rails
+  - rubocop-factory_bot
+  - rubocop-capybara
 
 AllCops:
   TargetRubyVersion: 3.3
