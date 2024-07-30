@@ -6,7 +6,11 @@ ruby file: ".ruby-version"
 
 gem "action_policy", "~> 0.7.0"
 gem "bootsnap", "~> 1.18", require: false
+gem "class_variants", "~> 0.0.7"
 gem "cssbundling-rails", "~> 1.4"
+gem "dry-initializer", "~> 3.1"
+gem "dry-initializer-rails", "~> 3.1"
+gem "dry-types", "~> 1.7"
 gem "jbuilder", "~> 2.12"
 gem "jsbundling-rails", "~> 1.3"
 gem "nilify_blanks", "~> 1.4"
@@ -20,10 +24,13 @@ gem "sidekiq", "~> 7.3"
 gem "stimulus-rails", "~> 1.3"
 gem "thruster", "~> 0.1.7"
 gem "turbo-rails", "~> 2.0"
+gem "view_component", "~> 3.13"
 gem "wannabe_bool", "~> 0.7.1"
+gem 'after_commit_everywhere', '~> 1.4'
 
 group :development do
   gem "annotate", "~> 3.2", require: false
+  gem "benchmark-ips", "~> 2.13"
   gem "brakeman", "~> 6.1", require: false
   gem "bundler-audit", "~> 0.9.1", require: false
   gem "database_consistency", "~> 1.7", require: false
@@ -57,7 +64,6 @@ end
 
 # gem "ar_lazy_preload"
 # gem "lograge"
-# gem "after_commit_everywhere"
 # gem "strong_migrations" / gem "online_migrations"
 # gem "rails-pg-extras"
 # gem "fuubar"
