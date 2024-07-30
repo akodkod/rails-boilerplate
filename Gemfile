@@ -5,6 +5,7 @@ source "https://rubygems.org"
 ruby file: ".ruby-version"
 
 gem "action_policy", "~> 0.7.0"
+gem "after_commit_everywhere", "~> 1.4"
 gem "bootsnap", "~> 1.18", require: false
 gem "class_variants", "~> 0.0.7"
 gem "cssbundling-rails", "~> 1.4"
@@ -22,11 +23,11 @@ gem "rails", "~> 7.1"
 gem "redis", "~> 5.2"
 gem "sidekiq", "~> 7.3"
 gem "stimulus-rails", "~> 1.3"
+gem "strong_migrations", "~> 2.0"
 gem "thruster", "~> 0.1.7"
 gem "turbo-rails", "~> 2.0"
 gem "view_component", "~> 3.13"
 gem "wannabe_bool", "~> 0.7.1"
-gem 'after_commit_everywhere', '~> 1.4'
 
 group :development do
   gem "annotate", "~> 3.2", require: false
@@ -64,7 +65,6 @@ end
 
 # gem "ar_lazy_preload"
 # gem "lograge"
-# gem "strong_migrations" / gem "online_migrations"
 # gem "rails-pg-extras"
 # gem "fuubar"
 # gem "test-prof"
