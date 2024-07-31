@@ -69,5 +69,7 @@ Metrics/BlockLength:
     - config/**/*
 
 Metrics/MethodLength:
+  AllowedMethods:
+    - view_template
   Exclude:
     - bin/**/*

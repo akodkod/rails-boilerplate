@@ -10,6 +10,11 @@ Bundler.require(*Rails.groups)
 
 module Boilerplate
   class Application < Rails::Application
+    # Autoload Phlex views, components and layouts
+    config.autoload_paths << "#{root}/app/views"
+    config.autoload_paths << "#{root}/app/views/layouts"
+    config.autoload_paths << "#{root}/app/views/components"
+
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 7.1
 
