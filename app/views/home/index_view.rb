@@ -7,7 +7,7 @@ module Home
       p { "Find me in app/views/home/index_view.rb" }
 
       div data_controller: "hello" do
-        "Hi"
+        "This content must be replaced by Stimulus controller"
       end
 
       render ButtonComponent.new(block: true, data_test: "Hello!") do
