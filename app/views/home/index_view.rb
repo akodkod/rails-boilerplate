@@ -13,6 +13,8 @@ module Home
       render ButtonComponent.new(block: true, data_test: "Hello!") do
         "Click me"
       end
+
+      Button { "Phlex UI 🔥" }
     end
   end
 end

@@ -7,7 +7,8 @@
   },
   "dependencies": {
     "@hotwired/stimulus": "^3.2.2",
-    "@hotwired/turbo-rails": "^8.0.5"
+    "@hotwired/turbo-rails": "^8.0.5",
+    "phlex_ui": "^0.1.5"
   },
   "devDependencies": {
     "@eslint/js": "^9.8.0",
@@ -24,6 +25,7 @@
     "postcss": "^8.4.39",
     "stimulus-vite-helpers": "^3.1.0",
     "tailwindcss": "^3.4.6",
+    "tailwindcss-animate": "^1.0.7",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.4",
     "typescript-eslint": "^8.0.0",

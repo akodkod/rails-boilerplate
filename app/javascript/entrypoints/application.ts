@@ -1,6 +1,7 @@
 import { Application } from "@hotwired/stimulus"
 import { registerControllers } from "stimulus-vite-helpers"
 import "@hotwired/turbo-rails"
+import "phlex_ui"
 import "../styles/app.css"
 
 const application = Application.start()

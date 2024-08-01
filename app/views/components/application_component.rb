@@ -2,6 +2,7 @@
 
 class ApplicationComponent < Phlex::HTML
   extend Dry::Initializer
+  include PhlexUI
   include Phlex::Rails::Helpers::Routes
 
   def initialize(*args, **kwargs)
