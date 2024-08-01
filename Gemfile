@@ -4,7 +4,7 @@ source "https://rubygems.org"
 
 ruby file: ".ruby-version"
 
-gem "action_policy", "~> 0.7.0"
+gem "action_policy", "~> 0.7"
 gem "after_commit_everywhere", "~> 1.4"
 gem "bootsnap", "~> 1.18", require: false
 gem "class_variants", "~> 0.0.7"
