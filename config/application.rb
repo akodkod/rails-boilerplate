@@ -8,7 +8,7 @@ require "rails/all"
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
-module Boilerplate
+module Rewind
   class Application < Rails::Application
     # Autoload Phlex views, components and layouts
     config.autoload_paths << "#{root}/app/views"

@@ -1,4 +1,4 @@
-# Rails Boilerplate
+# Rails Rewind
 
 - Sidekiq
 - Phlex
