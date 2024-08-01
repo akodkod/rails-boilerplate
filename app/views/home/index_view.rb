@@ -6,6 +6,10 @@ module Home
       h1 { "Home::Index" }
       p { "Find me in app/views/home/index_view.rb" }
 
+      div data_controller: "hello" do
+        "Hi"
+      end
+
       render ButtonComponent.new(block: true, data_test: "Hello!") do
         "Click me"
       end

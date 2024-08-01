@@ -11,8 +11,8 @@ class ButtonComponent < ApplicationComponent
 
   VARIANTS = ClassVariants.build(
     [
-      "inline-flex items-center border border-transparent font-medium text-white hover:text-white shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2",
-      "rounded-2xl",
+      "inline-flex items-center border border-transparent font-medium text-white hover:text-white shadow-sm",
+      "rounded-2xl focus:outline-none focus:ring-2 focus:ring-offset-2",
     ],
     variants: {
       size: {

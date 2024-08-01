@@ -3,8 +3,7 @@ import type { Config } from "tailwindcss"
 export default {
   content: [
     "./app/views/**/*.{rb,html.erb}",
-    './app/assets/stylesheets/**/*.css',
     './app/helpers/**/*.rb',
-    './app/javascript/**/*.ts',
+    "./app/javascript/**/*.{ts,css}",
   ]
 } satisfies Config

@@ -12,12 +12,13 @@ class ApplicationLayout < ApplicationView
         meta name: "viewport", content: "width=device-width,initial-scale=1"
         csp_meta_tag
         csrf_meta_tags
-        stylesheet_link_tag "application", data_turbo_track: "reload"
-        javascript_include_tag "application", data_turbo_track: "reload", type: "module"
+
+        plain helpers.vite_client_tag
+        plain helpers.vite_typescript_tag "application", data_turbo_track: "reload"
       end
 
       body do
-        main(&block)
+        div class: "contents", &block
       end
     end
   end
