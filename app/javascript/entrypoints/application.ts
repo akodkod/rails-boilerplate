@@ -1,5 +1,5 @@
 import { Application } from "@hotwired/stimulus"
-import { registerControllers } from 'stimulus-vite-helpers'
+import { registerControllers } from "stimulus-vite-helpers"
 import "@hotwired/turbo-rails"
 import "../styles/app.css"
 
